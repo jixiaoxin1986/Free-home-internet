@@ -6,16 +6,18 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: p1real4.greewebservices.ir
-  port: 1260
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  server: 104.18.35.86
+  port: 443
+  uuid: 1c7f675f-5923-463f-83fb-af4c898cecea
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-  servername: play.googleapis.com
-  client-fingerprint: ios
+  servername: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZWhuWFFGNWRISXBjSmRGWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
 proxy-groups:
 - name: PROXIES
   type: select
