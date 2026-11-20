@@ -20,20 +20,19 @@ proxies:
     headers:
       Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: skk.moe
+  port: 443
+  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ave-qualifications-choices-populations.trycloudflare.com
   network: ws
   ws-opts:
-    path: /arki
+    path: /a8b8606819ef
     headers:
-      Host: 47.244.120.197
+      Host: ave-qualifications-choices-populations.trycloudflare.com
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: ss
   server: 213.176.92.148
